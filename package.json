@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "dependencies": {
+    "react": "16.8"
+  },
+  "name": "jujihooks",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "repository": "git@github.com:juji/jujihooks.git",
+  "author": "juji <jujiyangasli@gmail.com>",
+  "license": "MIT"
+}
