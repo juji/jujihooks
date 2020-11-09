@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _react=require("react");const useToggle=init=>{const[val,setVal]=(0,_react.useState)(!!init);const toggle=()=>{setVal(!val)};return[val,toggle]};var _default=useToggle;exports.default=_default;
+//# sourceMappingURL=useToggle.js.map

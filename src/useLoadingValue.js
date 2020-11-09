@@ -16,14 +16,14 @@ export const useLoadingValue = (value, error) => {
     setErr(null)
   }
 
-  return [
+  return {
     loading,
     startLoading,
-    val,
-    setVal,
-    err,
-    setErr
-  ]
+    value: val,
+    setValue: setVal,
+    error: err,
+    setError: setErr
+  }
 
 }
 
